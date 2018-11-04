@@ -104,6 +104,9 @@ ClassicEditor.defaultConfig = {
 			'mergeTableCells'
 		]
 	},
+	ckfinder: {
+		uploadUrl: 'http://e-dgpcx3xpkj.kem2hhcu7y.us-east-2.elasticbeanstalk.com/welcome'
+	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
 };
