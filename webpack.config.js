@@ -18,6 +18,7 @@ module.exports = {
 	performance: { hints: false },
 
 	entry: [
+		"babel-polyfill",
 		path.resolve( __dirname, 'src', 'ckeditor.js' ),
 		require.resolve( 'regenerator-runtime/runtime.js' )
 	],
