@@ -4,8 +4,6 @@
  */
 
 // The editor creator to use.
-import 'babel-polyfill';
-
 import ClassicEditorBase from '@ckeditor/ckeditor5-editor-classic/src/classiceditor';
 
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials';
